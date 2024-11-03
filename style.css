@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+}
+.main{
+    color: white;
+    margin: 0 auto;
+    width: 80vw;
+    height: 100%;
+    overflow: hidden;
+    background-color: #111111;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+nav{
+    width: 80%;
+    padding: 3vh 0px;
+    position: fixed;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    /* background-color: red; */
+
+}
+.middle-nav a  {
+    text-decoration: none;
+    color: white;
+    padding: 0px 0.5vw;
+    font-size: 0.8vw;
+    font-weight: 600;
+}
+.nav-button{
+    border: none;
+    background-color: #0DA34E;
+    border-radius: 25px;
+ padding: 5px 12px;
+}
+.nav-button i {
+    margin-left: 1.5vw;
+}
+.page-1{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+.page-1 h1{
+    line-height: 8vw;
+    font-size: 8.3vw;
+    font-weight: 900;
+}
+.nav-part2{
+    display: flex;
+    gap: 2vw;
+}
+.nav-part2 h4{
+    font-size: 0.74;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+span svg{
+    height: 12vh;
+    width: 12vh;
+    border-radius: 50%;
+    background-color: #0DA34E;
+}
+#p1{
+    margin-top: 5vh;
+}
+    age-1 p {
+    font-size: 1vw;
+    font-weight: 600;
+}
+.div{
+    margin-top: 1.5vh;
+}
+.div span{
+border: 1px solid white;
+border-radius: 20px;
+padding: 2px 5px;
+}
